@@ -1,0 +1,15 @@
+/*aqui van los comentarios en css */
+ .red{
+     color: white;
+     width: 100px;  
+     height: 200px;
+     background-color: rgb(21, 0, 255)
+    
+ }
+ #boton-pago{
+     background-color: yellow;
+
+ }
+ td{
+    border: solid 1px;
+ }
