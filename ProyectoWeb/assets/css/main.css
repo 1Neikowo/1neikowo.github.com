@@ -1,15 +1,80 @@
-/*aqui van los comentarios en css */
- .red{
-     color: white;
-     width: 100px;  
-     height: 200px;
-     background-color: rgb(21, 0, 255)
-    
- }
- #boton-pago{
-     background-color: yellow;
+/*
+negro: #080705
+gris: #40434E
+rojo: #702632
+rojo claro: #702632
+crema: #F1BF98
 
+*/
+a{
+    text-decoration: none;
+    color:#bf0076
+}
+.tittle{
+    text-transform: uppercase;
+}
+.container{
+
+    background: #4b134f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4b134f, #9e0f46);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4b134f, #9e0f46); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+
+    /*centramos el div con flexbox*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    max-width: 960px;
+    max-height: 500px;
+    width: 100%; /*100% del contenedor en el que está dentro*/
+    height: 100%;
+    background-color: white;
+    /*SOMBRAS: box-shadow: diferenciaHorizontal diferenciaVertical desenfoque amplitud color  */
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.50) ;
+    border-radius: 4px;
+
+}
+.paragraph{
+    line-height: 1.8em;
+    font-weight: 200;
+
+}
+
+ .table{
+    width: 100%;
+    border-spacing: 0;  
+ }
+ .table td, .table th{
+    padding: 1em;
+    text-align: left;
  }
  td{
-    border: solid 1px;
+    text-transform: capitalize;
+ }
+ .table tr:nth-child(even){
+    background-color:#f3e5f5 ;
+ }
+ .fa-star{
+    color: #ffc400;
+
+ }
+ .title-item{
+    /*border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #c6426e;*/
+
+
+    border-bottom: solid 2px #a71e72;
+    padding-bottom: 1em;
+
+ }
+ .position{
+    background-color:#a71e72 ;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-left: 3px;
+    
  }
